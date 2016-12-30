@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<Database xmlns="http://datadirect.com/cloud/script" version="2">
+	<Definition>
+		<Statement>SET DATABASE UNIQUE NAME "HSQLDB5925B46FDF"</Statement>
+		<Statement>SET DATABASE GC 0</Statement>
+		<Statement>SET DATABASE EVENT LOG LEVEL 0</Statement>
+		<Statement>SET DATABASE SQL NAMES FALSE</Statement>
+		<Statement>SET DATABASE SQL REFERENCES FALSE</Statement>
+		<Statement>SET DATABASE SQL SIZE TRUE</Statement>
+		<Statement>SET DATABASE SQL TYPES FALSE</Statement>
+		<Statement>SET DATABASE SQL TDC DELETE TRUE</Statement>
+		<Statement>SET DATABASE SQL TDC UPDATE TRUE</Statement>
+		<Statement>SET DATABASE SQL TRANSLATE TTI TYPES TRUE</Statement>
+		<Statement>SET DATABASE SQL CONCAT NULLS TRUE</Statement>
+		<Statement>SET DATABASE SQL NULLS ORDER FALSE</Statement>
+		<Statement>SET DATABASE SQL UNIQUE NULLS TRUE</Statement>
+		<Statement>SET DATABASE SQL CONVERT TRUNCATE TRUE</Statement>
+		<Statement>SET DATABASE SQL AVG SCALE 4</Statement>
+		<Statement>SET DATABASE SQL DOUBLE NAN TRUE</Statement>
+		<Statement>SET DATABASE SQL IGNORECASE TRUE</Statement>
+		<Statement>SET DATABASE TRANSACTION CONTROL LOCKS</Statement>
+		<Statement>SET DATABASE DEFAULT ISOLATION LEVEL READ COMMITTED</Statement>
+		<Statement>SET DATABASE TRANSACTION ROLLBACK ON CONFLICT TRUE</Statement>
+		<Statement>SET DATABASE TEXT TABLE DEFAULTS ''</Statement>
+		<Statement>SET FILES WRITE DELAY 500 MILLIS</Statement>
+		<Statement>SET FILES BACKUP INCREMENT TRUE</Statement>
+		<Statement>SET FILES CACHE SIZE 10000</Statement>
+		<Statement>SET FILES CACHE ROWS 50000</Statement>
+		<Statement>SET FILES SCALE 32</Statement>
+		<Statement>SET FILES LOB SCALE 32</Statement>
+		<Statement>SET FILES DEFRAG 0</Statement>
+		<Statement>SET FILES NIO TRUE</Statement>
+		<Statement>SET FILES NIO SIZE 256</Statement>
+		<Statement>SET FILES LOG TRUE</Statement>
+		<Statement>SET FILES LOG SIZE 50</Statement>
+		<Statement>CREATE USER "HAN_INTG_USER" PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'</Statement>
+		<Statement>ALTER USER "HAN_INTG_USER" SET LOCAL TRUE</Statement>
+		<Statement>CREATE SCHEMA PUBLIC AUTHORIZATION DBA</Statement>
+		<Statement>ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 1</Statement>
+		<Statement>SET DATABASE DEFAULT INITIAL SCHEMA ORACLESALESCLOUD</Statement>
+		<Statement>GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.SQL_IDENTIFIER TO PUBLIC</Statement>
+		<Statement>GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.YES_OR_NO TO PUBLIC</Statement>
+		<Statement>GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.TIME_STAMP TO PUBLIC</Statement>
+		<Statement>GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CARDINAL_NUMBER TO PUBLIC</Statement>
+		<Statement>GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CHARACTER_DATA TO PUBLIC</Statement>
+		<Statement>GRANT DBA TO "HAN_INTG_USER"</Statement>
+	</Definition>
+</Database>
